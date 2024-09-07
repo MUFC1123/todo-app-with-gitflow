@@ -1,5 +1,4 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
- 
+
 import Todo from './components/Todo';
 
 function App() {
