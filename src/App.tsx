@@ -1,8 +1,9 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
  
 import Todo from './components/Todo';
 
 function App() {
-
+   const API_url = "http://localhost:8000";
   return (
     <div className="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden mt-32 py-4 px-4">
       <div className="px-4 py-2">
