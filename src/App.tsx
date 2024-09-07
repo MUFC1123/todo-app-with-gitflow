@@ -14,7 +14,6 @@ function App() {
     });
 
     if (response.ok) {
-      const newTodo = await response.json();
       // mutate(
       //   `${API_URL}/allTodos`,
       //   async (currentTodos: TodoType[] = []) => [newTodo, ...currentTodos],
