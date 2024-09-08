@@ -1,4 +1,5 @@
 
+
 import { useState } from 'react'
 import Todo from './components/Todo';
 
@@ -22,6 +23,11 @@ function App() {
       setTitle(""); // Reset input after adding
     }
   };
+
+
+import Todo from './components/Todo';
+
+function App() {
 
   return (
     <div className="max-w-md mx-auto bg-white shadow-lg rounded-lg overflow-hidden mt-32 py-4 px-4">
